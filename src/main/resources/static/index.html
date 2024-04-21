@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p class="CentrarEsteTexto">Articulos Electrofuturo</p>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="iluminacion.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Iluminacion</p>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Alambre.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>Alambre</p>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="aparatos electricos.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Aparatos Electricos</p>
+
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="herraminetas_manuales.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Herramientas de mano</p>
+                    
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="herraminetas_electricas.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Herramientas electricas</p>
+                    
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="tuberia.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Tuberia</p>
+                    
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="tornilleria.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Tornilleria</p>
+                    
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Cerrajeria.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Cerrajeria</p>
+                    
+                </div>
+            </div> 
+        </div>
+        
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <p id="descripcion">Los mejores articulos y al mejor precio</p>
+
+                <span class="precio" id="precio">$</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">Cantidad</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            
+                        </select>
+                    </div>
+                    <a href="" target="_blank">Meter al carrito</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="Inventario.js"></script>
+    
+</body>
+</html>
